@@ -7,7 +7,7 @@ token = "enter token code here"
 
 bot = telebot.TeleBot(token)
 
-message = "Neuer Login auf Laptop Arbeitsviech - Username: " + user
+message = "Neuer Login auf Server xxx - Username: " + user
 
 # Enter chat_id here
 bot.send_message("Use Telegram @getidsbot to get your personal chat id", message)
